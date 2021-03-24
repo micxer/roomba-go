@@ -14,7 +14,7 @@ func GetPassword() {
 	getPasswordFlags.Parse(os.Args[2:])
 
 	if len(*getPasswordHostFlag) == 0 {
-		fmt.Fprintln(os.Stderr, "Please specify roomba address to get password from!\n")
+		fmt.Fprintln(os.Stderr, "Please specify roomba address to get password from!")
 		getPasswordFlags.Usage()
 		os.Exit(1)
 	}
