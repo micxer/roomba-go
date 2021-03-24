@@ -57,6 +57,7 @@ type Status struct {
 	UmiVer             interface{} `json:"umiVer"`
 	Utctime            interface{} `json:"utctime"`
 	VacHigh            interface{} `json:"vacHigh"`
+	WifiAnt            interface{} `json:"wifiAnt"`
 	Wifistat           interface{} `json:"wifistat"`
 	WifiSwVer          interface{} `json:"wifiSwVer"`
 	Wlcfg              interface{} `json:"wlcfg"`
